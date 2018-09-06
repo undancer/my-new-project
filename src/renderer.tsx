@@ -4,8 +4,14 @@ import {AppContainer} from 'react-hot-loader';
 import App from './app';
 
 let render = () => {
-    ReactDOM.render(<AppContainer><App/></AppContainer>, document.getElementById('App'));
-}
+    ReactDOM.render(
+        (
+            <AppContainer>
+                <App/>
+            </AppContainer>
+        )
+        , document.getElementById('App'));
+};
 
 render();
 if (module.hot) {
