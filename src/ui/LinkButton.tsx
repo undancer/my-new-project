@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {Button} from '@material-ui/core';
+import {get} from '../util/Api';
 
 export interface ILinkButtonProps {
 
@@ -12,6 +13,10 @@ export class LinkButton extends React.Component<ILinkButtonProps, {}> {
 
         event.preventDefault();
         console.log('click');
+
+        get((data: any) => {
+            console.log('name - %s', data.name);
+        });
 
         if (this.props.onClick) {
             this.props.onClick(event);
