@@ -10,4 +10,4 @@ class App extends React.Component {
     }
 }
 exports.default = App;
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=App.js.map
