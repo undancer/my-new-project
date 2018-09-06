@@ -50,7 +50,7 @@
     recompose "^0.29.0"
     warning "^4.0.1"
 
-"@octokit/rest@^15.2.6":
+"@octokit/rest@^15.11.1", "@octokit/rest@^15.2.6":
   version "15.11.1"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-15.11.1.tgz#ef4e7462ec8f94e535a82220f7b5212111fc2647"
   dependencies:
