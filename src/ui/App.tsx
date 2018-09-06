@@ -1,14 +1,17 @@
 import * as React from 'react';
-import {Button} from '@material-ui/core';
+import {LinkButton} from './LinkButton';
 
 export default class App extends React.Component<{}, {}> {
+
+    handleClick = () => {
+        console.log('app');
+    }
+
     render() {
         return (
             <div>
                 <h2>Welcome to React with Typescript!</h2>
-                <Button variant='contained' color='primary'>
-                    Hello World
-                </Button>
+                <LinkButton onClick={this.handleClick}>Hello World</LinkButton>
             </div>
         );
     }
