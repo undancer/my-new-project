@@ -7,5 +7,5 @@ class App extends React.Component {
             React.createElement("h2", null, "Welcome to React with Typescript!")));
     }
 }
-exports.App = App;
+exports.default = App;
 //# sourceMappingURL=app.js.map
